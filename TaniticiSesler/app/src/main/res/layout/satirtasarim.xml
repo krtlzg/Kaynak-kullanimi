@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor">
+
+    <ImageView
+        android:id="@+id/imageViewresim"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:srcCompat="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewisim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="TextView"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/buttonsesçal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OYNAT"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/buttonsesdurdur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DURDUR"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
