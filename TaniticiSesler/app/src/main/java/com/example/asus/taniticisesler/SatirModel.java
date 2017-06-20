@@ -6,11 +6,14 @@ package com.example.asus.taniticisesler;
 
 public class SatirModel {
 
-    private int LogoId;
+
+
+    private int LogoId,mediaId;
     private String isim;
 
-    public SatirModel(int logoId, String isim) {
+    public SatirModel(int logoId, int mediaId, String isim) {
         LogoId = logoId;
+        this.mediaId = mediaId;
         this.isim = isim;
     }
 
@@ -20,6 +23,14 @@ public class SatirModel {
 
     public void setLogoId(int logoId) {
         LogoId = logoId;
+    }
+
+    public int getMediaId() {
+        return mediaId;
+    }
+
+    public void setMediaId(int mediaId) {
+        this.mediaId = mediaId;
     }
 
     public String getIsim() {

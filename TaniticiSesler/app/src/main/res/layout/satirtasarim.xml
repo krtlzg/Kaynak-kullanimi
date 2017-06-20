@@ -25,14 +25,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OYNAT"
-        android:onClick="OnClick"/>
+        />
 
     <Button
         android:id="@+id/buttonsesdurdur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DURDUR"
-        android:onClick="onClick"
+
         />
 
 </LinearLayout>
